@@ -1,61 +1,27 @@
-# I&D Intelligence & Data Pvt. Ltd. — Website
+# I&D Intelligence & Data Pvt. Ltd. — Premium Website Package
 
-A responsive, static website prepared for deployment to GitHub Pages and the custom domain `iddata.co.in`.
+This is a responsive, static GitHub Pages website for `https://iddata.co.in/`, refreshed with a premium white, deep-navy and teal visual style.
 
-## Before publishing — important
+## What's included
 
-1. **Verify the company email.** The starter site currently uses `contact@iddata.co.in`. Create and test that mailbox first, or replace every occurrence in `index.html`, `privacy.html`, `terms.html`, and `medical-ai-disclaimer.html` with your actual working company email.
-2. Review every product description and stage for accuracy. Do not imply that any product is approved, clinically validated, commercially deployed or proven unless you can substantiate the claim.
-3. Review the starter Privacy Policy and Terms of Use against your actual practices and applicable law.
-4. Add founder names, professional profiles, registered-office details and other company details only after confirming the exact wording you want public.
-5. This is a static informational website. It does not include a backend, database, analytics, login, or a working web form.
-
-## Publish with GitHub Pages
-
-1. Create/sign in to a GitHub account.
-2. Create a **public** repository named `iddata-website`.
-3. Upload all files and folders in this package. `index.html` must be at the repository root.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-6. Wait for the `github.io` website to deploy and test it before changing DNS.
-
-Official guide: https://docs.github.com/en/pages/getting-started-with-github-pages
-
-## Connect the GoDaddy domain
-
-In GitHub, open repository **Settings → Pages → Custom domain**, enter `iddata.co.in`, and save. Follow the verification and DNS instructions shown there.
-
-In GoDaddy, open **My Products → Domains → iddata.co.in → DNS → Add New Record**. For a typical GitHub Pages apex-domain setup, GitHub documents these A records:
-
-| Type | Name | Value |
-|---|---|---|
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-
-For `www`, add a CNAME record with:
-- Type: `CNAME`
-- Name: `www`
-- Value: `YOUR-GITHUB-USERNAME.github.io` (replace with your GitHub username; no `https://` and no path)
-
-**Do not delete MX, SPF, DKIM, DMARC or other email-related records.** If existing A, AAAA or CNAME records conflict with these website records, check the official GitHub instructions before replacing them. Do not change nameservers unless you understand the effect on your email and other services.
-
-Official custom-domain guide: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
-
-After DNS updates propagate, return to GitHub Pages settings and enable **Enforce HTTPS** when the option becomes available. Test both `https://iddata.co.in` and `https://www.iddata.co.in`.
-
-## Files
-
-- `index.html` — homepage
-- `privacy.html` — starter privacy policy
-- `terms.html` — starter terms of use
-- `medical-ai-disclaimer.html` — healthcare AI disclaimer
-- `assets/styles.css` — responsive visual styling
-- `assets/site.js` — mobile navigation and current-year footer
+- `index.html` — redesigned homepage with an illustrated Applied AI Studio panel, portfolio cards, responsible-AI approach, company team and contact section
+- `assets/styles.css` — responsive styling for desktop, tablet and mobile
+- `assets/site.js` — mobile navigation and automatic copyright year
 - `assets/favicon.svg` — site icon
+- `privacy.html`, `terms.html`, `medical-ai-disclaimer.html` — legal information pages
 - `robots.txt`, `sitemap.xml` — basic search-engine discovery files
 
-## Google for Startups Cloud Program
+## Publish the refreshed website to the existing GitHub repository
 
-Once the website is public, load without a login, has accurate company/product information and works over HTTPS, reply to the existing Google email asking them to reprocess the application. Website availability does not guarantee program acceptance; Google may assess other eligibility requirements.
+1. Download and unzip this package on your computer.
+2. Open `https://github.com/iddata-co-in/iddata-website` and sign in.
+3. Open the repository's `main` branch.
+4. Upload/replace the files from this package in the repository root. Keep the `assets` folder and its files in the same structure. Do not upload the outer ZIP itself.
+5. Commit the changes to `main`.
+6. Wait a minute or two, then open `https://iddata.co.in/` and refresh. If the old design remains, use a hard refresh (`Ctrl + F5`) or check in a private window.
+
+Keep the GitHub Pages settings and GoDaddy DNS records as they are if the current website is already working. A visual refresh does not require DNS changes.
+
+## Important accuracy note
+
+The site describes the company's AI products as areas of development and does not claim unverified clinical validation, regulatory approval, commercial deployment, customers or performance metrics. Review all text and legal pages before publishing.
