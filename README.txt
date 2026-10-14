@@ -7,3 +7,9 @@ Pages: index.html, about.html, technologies.html, team-contact.html, six individ
 Contact: +91 9825084275 / +91 9824090750 / +91 7861083975; contact@iddata.co.in
 
 The original trademark logo image is included unchanged at assets/id-data-company-logo.jpg.
+
+
+VISUAL UPDATE
+- Added assets/ai-neural-head-hero.png and integrated it into the homepage hero.
+- Kept the supplied registered trademark logo file unchanged; CSS only controls display size.
+- This package is a downloadable website source bundle. It has not been published to GitHub or your live domain.
